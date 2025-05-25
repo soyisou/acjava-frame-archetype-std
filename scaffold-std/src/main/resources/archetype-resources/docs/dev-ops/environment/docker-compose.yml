@@ -77,7 +77,7 @@ services:
     depends_on:
       - mysql-job-dbdata
     ports:
-      - "13306:3306"
+      - "3306:3306"
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
     healthcheck:
