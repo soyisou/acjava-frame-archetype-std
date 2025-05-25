@@ -32,3 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 /scaffold-std/
+/docs/dev-ops/environment/data/portainer/
+/docs/dev-ops/environment/rocketmq/data/
