@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.fuzhengwei</groupId>
+    <groupId>acjava.com</groupId>
     <artifactId>ddd-scaffold-std</artifactId>
     <version>1.0</version>
     <packaging>maven-archetype</packaging>
@@ -130,13 +130,13 @@
 <!--        </profile>-->
 <!--    </profiles>-->
 
-    <description>ddd scaffold std by xiaofuge</description>
+    <description>ddd scaffold std by mingxuan</description>
 
-    <url>https://spring.io/projects/spring-boot/xfg-frame-archetype-std</url>
+    <url>https://spring.io/projects/spring-boot/acjava-frame-archetype-std</url>
 
     <developers>
         <developer>
-            <name>xiaofuge</name>
+            <name>mingxuan</name>
             <email>184172133@qq.com</email>
             <organization>fuzhengwei</organization>
             <organizationUrl>https://github.com/fuzhengwei</organizationUrl>
@@ -151,6 +151,6 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/spring-projects/spring-boot/xfg-frame-archetype-std</url>
+        <url>https://github.com/spring-projects/spring-boot/acjava-frame-archetype-std</url>
     </scm>
 </project>

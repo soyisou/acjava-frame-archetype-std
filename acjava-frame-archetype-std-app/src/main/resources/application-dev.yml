@@ -40,7 +40,7 @@ redis:
 # Dubbo
 dubbo:
   application:
-    name: xfg-frame-archetype-std
+    name: acjava-frame-archetype-std
     version: 1.0.0
   registry:
     id: nacos-registry
@@ -51,16 +51,16 @@ dubbo:
   scan:
     base-packages: com.acjava.api
 
-# RocketMQ 配置，在docs/dev-ops下，有创建 xfg-group 脚本，也有场景mq消息的脚本
+# RocketMQ 配置，在docs/dev-ops下，有创建 acjava-group 脚本，也有场景mq消息的脚本
 rocketmq:
   name-server: 127.0.0.1:9876
   consumer:
-    group: xfg-group
+    group: acjava-group
     # 一次拉取消息最大值，注意是拉取消息的最大值而非消费最大值
     pull-batch-size: 10
   producer:
     # 发送同一类消息的设置为同一个group，保证唯一
-    group: xfg-group
+    group: acjava-group
     # 发送消息超时时间，默认3000
     sendMessageTimeout: 10000
     # 发送消息失败重试次数，默认2

@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 
 /**
  * RocketMQ 接收消息
- * @author Fuzhengwei bugstack.cn @小傅哥
+
  */
 @Component
 @Slf4j
-@RocketMQMessageListener(topic = "xfg-mq", consumerGroup = "xfg-group")
+@RocketMQMessageListener(topic = "acjava-mq", consumerGroup = "acjava-group")
 public class MQListener implements RocketMQListener<String> {
 
     @Override

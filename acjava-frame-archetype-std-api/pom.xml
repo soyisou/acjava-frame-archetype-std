@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>cn.bugstack</groupId>
-        <artifactId>xfg-frame-archetype-std</artifactId>
+        <groupId>com.acjava</groupId>
+        <artifactId>acjava-frame-archetype-std</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>xfg-frame-archetype-std-api</artifactId>
+    <artifactId>acjava-frame-archetype-std-api</artifactId>
 
     <dependencies>
         <dependency>
@@ -23,14 +23,14 @@
             <version>3.0.2</version>
         </dependency>
         <dependency>
-            <groupId>cn.bugstack</groupId>
-            <artifactId>xfg-frame-archetype-std-types</artifactId>
+            <groupId>com.acjava</groupId>
+            <artifactId>acjava-frame-archetype-std-types</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>xfg-frame-archetype-std-api</finalName>
+        <finalName>acjava-frame-archetype-std-api</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

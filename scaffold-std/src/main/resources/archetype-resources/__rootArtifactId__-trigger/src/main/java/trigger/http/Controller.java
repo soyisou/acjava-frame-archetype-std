@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.xfg.frame.trigger.http;
+package ${package}.acjava.frame.trigger.http;
 
 import ${package}.types.common.Constants;
 import ${package}.types.model.Response;
@@ -40,7 +40,7 @@ public class Controller {
         return Response.<String>builder()
                 .code(Constants.ResponseCode.SUCCESS.getCode())
                 .info(Constants.ResponseCode.SUCCESS.getInfo())
-                .data("查询用户信息，小傅哥")
+                .data("查询用户信息，AcJava")
                 .build();
     }
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.acjava.infrastructure.persistent.dao.IUserOrderDao">
+<mapper namespace="dao.persistent.infrastructure.com.acjava.IUserOrderDao">
 
-    <resultMap id="dataMap" type="com.acjava.infrastructure.persistent.po.UserOrderPO">
+    <resultMap id="dataMap" type="po.persistent.infrastructure.com.acjava.UserOrderPO">
         <id column="id" property="id"/>
         <result column="user_name" property="userName"/>
         <result column="user_id" property="userId"/>
@@ -25,7 +25,7 @@
         <result column="update_time" property="updateTime"/>
     </resultMap>
 
-    <select id="insert" parameterType="com.acjava.infrastructure.persistent.po.UserOrderPO">
+    <select id="insert" parameterType="po.persistent.infrastructure.com.acjava.UserOrderPO">
         INSERT INTO user_order (user_name, user_id, user_mobile, sku, sku_name,
         order_id, quantity, unit_price, discount_amount, tax,
         total_amount, order_date, order_status, is_delete, uuid,

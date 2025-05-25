@@ -1,4 +1,5 @@
-# xfg-frame-archetype - DDD 脚手架
+# acjava-frame-archetype - DDD 脚手架
+基于小傅哥的DDD脚手架进行优化，可直接用于初始化项目架构。
 
 ## 重要信息
 

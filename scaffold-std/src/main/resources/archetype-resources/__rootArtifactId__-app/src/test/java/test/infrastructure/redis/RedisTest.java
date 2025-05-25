@@ -15,7 +15,7 @@ import javax.annotation.Resource;
 
 /**
  * Redis 案例；<a href="https://bugstack.cn/md/road-map/redis.html">Redis</a>
- * @author Fuzhengwei bugstack.cn @小傅哥
+
  */
 @Slf4j
 @RunWith(SpringRunner.class)
@@ -27,14 +27,14 @@ public class RedisTest {
 
     @Test
     public void test_setValue() {
-        redissonService.setValue("xfg", "test123");
+        redissonService.setValue("acjava", "test123");
         log.info("设置属性值");
     }
 
     @Test
     public void test_getValue() {
-        String xfg = redissonService.getValue("xfg");
-        log.info("测试结果:{}", xfg);
+        String acjava = redissonService.getValue("acjava");
+        log.info("测试结果:{}", acjava);
     }
 
     @Test

@@ -2,7 +2,7 @@
 FROM openjdk:8-jre-slim
 
 # 作者
-MAINTAINER xiaofuge
+MAINTAINER mingxuan
 
 # 配置
 ENV PARAMS=""
@@ -12,6 +12,6 @@ ENV TZ=PRC
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # 添加应用
-ADD target/xfg-frame-archetype-std-app-app.jar /xfg-frame-archetype-std-app-app.jar
+ADD target/acjava-frame-archetype-std-app-app.jar /acjava-frame-archetype-std-app-app.jar
 
-ENTRYPOINT ["sh","-c","java -jar $JAVA_OPTS /xfg-frame-archetype-std-app-app.jar $PARAMS"]
+ENTRYPOINT ["sh","-c","java -jar $JAVA_OPTS /acjava-frame-archetype-std-app-app.jar $PARAMS"]

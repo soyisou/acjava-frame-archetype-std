@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.acjava</groupId>
-        <artifactId>xfg-frame-archetype-std</artifactId>
+        <artifactId>acjava-frame-archetype-std</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>xfg-frame-archetype-std-app</artifactId>
+    <artifactId>acjava-frame-archetype-std-app</artifactId>
 
     <packaging>jar</packaging>
 
@@ -118,16 +118,16 @@
         <!-- 工程模块；启动依赖 trigger->domain, infrastructure-->
         <dependency>
             <groupId>com.acjava</groupId>
-            <artifactId>xfg-frame-archetype-std-trigger</artifactId>
+            <artifactId>acjava-frame-archetype-std-trigger</artifactId>
         </dependency>
         <dependency>
             <groupId>com.acjava</groupId>
-            <artifactId>xfg-frame-archetype-std-infrastructure</artifactId>
+            <artifactId>acjava-frame-archetype-std-infrastructure</artifactId>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>xfg-frame-archetype-std-app</finalName>
+        <finalName>acjava-frame-archetype-std-app</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

@@ -18,7 +18,7 @@ import java.util.UUID;
 
 /**
  * 单元测试
- * @author Fuzhengwei bugstack.cn @小傅哥
+
  */
 @Slf4j
 @RunWith(SpringRunner.class)
@@ -30,7 +30,7 @@ public class UserOrderTest {
 
     @Test
     public void test_selectByUserId() {
-        List<UserOrderPO> list = userOrderDao.selectByUserId("xfg_FOawiP");
+        List<UserOrderPO> list = userOrderDao.selectByUserId("acjava_FOawiP");
         log.info("测试结果：{}", JSON.toJSONString(list));
     }
 
@@ -38,8 +38,8 @@ public class UserOrderTest {
     public void test_insert() {
         for (int i = 0; i < 10; i++) {
             UserOrderPO userOrderPO = UserOrderPO.builder()
-                    .userName("小傅哥")
-                    .userId("xfg_" + RandomStringUtils.randomAlphabetic(6))
+                    .userName("AcJava")
+                    .userId("acjava_" + RandomStringUtils.randomAlphabetic(6))
                     .userMobile("+86 13521408***")
                     .sku("13811216")
                     .skuName("《手写MyBatis：渐进式源码实践》")
@@ -68,7 +68,7 @@ public class UserOrderTest {
     @Test
     public void test_idx() {
         for (int i = 0; i < 50; i++) {
-            String user_id = "xfg_" + RandomStringUtils.randomAlphabetic(6);
+            String user_id = "acjava_" + RandomStringUtils.randomAlphabetic(6);
             log.info("测试结果 {}", (user_id.hashCode() ^ (user_id.hashCode()) >>> 16) & 3);
         }
     }

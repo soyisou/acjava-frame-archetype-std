@@ -6,7 +6,7 @@
 # https://github.com/Sequel-Ace/Sequel-Ace
 #
 # 主机: 127.0.0.1 (MySQL 8.0.32)
-# 数据库: xfg_dev_tech_db_00
+# 数据库: acjava_dev_tech_db_00
 # 生成时间: 2023-11-02 07:41:33 +0000
 # ************************************************************
 
@@ -19,8 +19,8 @@ SET NAMES utf8mb4;
 /*!40101 SET @OLD_SQL_MODE='NO_AUTO_VALUE_ON_ZERO', SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-CREATE database if NOT EXISTS `xfg_dev_tech_db_00` default character set utf8mb4 collate utf8mb4_0900_ai_ci;
-use `xfg_dev_tech_db_00`;
+CREATE database if NOT EXISTS `acjava_dev_tech_db_00` default character set utf8mb4 collate utf8mb4_0900_ai_ci;
+use `acjava_dev_tech_db_00`;
 
 # 转储表 user_order_0
 # ------------------------------------------------------------
@@ -61,8 +61,8 @@ LOCK TABLES `user_order_0` WRITE;
 
 INSERT INTO `user_order_0` (`id`, `user_name`, `user_id`, `user_mobile`, `sku`, `sku_name`, `order_id`, `quantity`, `unit_price`, `discount_amount`, `tax`, `total_amount`, `order_date`, `order_status`, `is_delete`, `uuid`, `ipv4`, `ipv6`, `ext_data`, `update_time`, `create_time`)
 VALUES
-	(1,'小傅哥','xfg_FOawiP','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','55811762243',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'d737caf79181405a987a34a17f7a7beb',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
-	(2,'小傅哥','xfg_MIxVOs','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','64790165297',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:46',0,0,'adf5faa9fba24c298dd426e04b3dd10f',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:54','2023-11-02 15:38:54');
+	(1,'AcJava','acjava_FOawiP','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','55811762243',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'d737caf79181405a987a34a17f7a7beb',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
+	(2,'AcJava','acjava_MIxVOs','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','64790165297',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:46',0,0,'adf5faa9fba24c298dd426e04b3dd10f',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:54','2023-11-02 15:38:54');
 
 /*!40000 ALTER TABLE `user_order_0` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -107,8 +107,8 @@ LOCK TABLES `user_order_1` WRITE;
 
 INSERT INTO `user_order_1` (`id`, `user_name`, `user_id`, `user_mobile`, `sku`, `sku_name`, `order_id`, `quantity`, `unit_price`, `discount_amount`, `tax`, `total_amount`, `order_date`, `order_status`, `is_delete`, `uuid`, `ipv4`, `ipv6`, `ext_data`, `update_time`, `create_time`)
 VALUES
-	(1,'小傅哥','xfg_Cnazua','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','67077289265',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'42fab13a8a7f4bf4a1db5515b5a7d1f9',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
-	(2,'小傅哥','xfg_bMNgJb','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','44231861187',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'e1707367684140c8b1d57caacc1acbf8',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00');
+	(1,'AcJava','acjava_Cnazua','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','67077289265',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'42fab13a8a7f4bf4a1db5515b5a7d1f9',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
+	(2,'AcJava','acjava_bMNgJb','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','44231861187',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'e1707367684140c8b1d57caacc1acbf8',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00');
 
 /*!40000 ALTER TABLE `user_order_1` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -153,8 +153,8 @@ LOCK TABLES `user_order_2` WRITE;
 
 INSERT INTO `user_order_2` (`id`, `user_name`, `user_id`, `user_mobile`, `sku`, `sku_name`, `order_id`, `quantity`, `unit_price`, `discount_amount`, `tax`, `total_amount`, `order_date`, `order_status`, `is_delete`, `uuid`, `ipv4`, `ipv6`, `ext_data`, `update_time`, `create_time`)
 VALUES
-	(1,'小傅哥','xfg_BbNdEo','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','75706486913',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'f576ce3965d3455db48d9db59397908d',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
-	(2,'小傅哥','xfg_WKOtte','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','56110050786',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'06156ea5dd564f13a8b03dd55936f739',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00');
+	(1,'AcJava','acjava_BbNdEo','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','75706486913',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'f576ce3965d3455db48d9db59397908d',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
+	(2,'AcJava','acjava_WKOtte','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','56110050786',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'06156ea5dd564f13a8b03dd55936f739',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00');
 
 /*!40000 ALTER TABLE `user_order_2` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -199,8 +199,8 @@ LOCK TABLES `user_order_3` WRITE;
 
 INSERT INTO `user_order_3` (`id`, `user_name`, `user_id`, `user_mobile`, `sku`, `sku_name`, `order_id`, `quantity`, `unit_price`, `discount_amount`, `tax`, `total_amount`, `order_date`, `order_status`, `is_delete`, `uuid`, `ipv4`, `ipv6`, `ext_data`, `update_time`, `create_time`)
 VALUES
-	(1,'小傅哥','xfg_wMIvhS','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','04973851200',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'94500f29e6ba4c849094e7b694942e5b',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
-	(2,'小傅哥','xfg_mRLUQC','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','84344470134',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'12b4e2c16a15434db8efd5140a262189',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00');
+	(1,'AcJava','acjava_wMIvhS','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','04973851200',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'94500f29e6ba4c849094e7b694942e5b',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00'),
+	(2,'AcJava','acjava_mRLUQC','+86 13521408***','13811216','《手写MyBatis：渐进式源码实践》','84344470134',1,128.00,50.00,0.00,78.00,'2023-11-02 07:38:00',0,0,'12b4e2c16a15434db8efd5140a262189',2130706433,X'20010DB885A3000000008A2E03707334','{\"device\": {\"machine\": \"IPhone 14 Pro\", \"location\": \"shanghai\"}}','2023-11-02 15:38:00','2023-11-02 15:38:00');
 
 /*!40000 ALTER TABLE `user_order_3` ENABLE KEYS */;
 UNLOCK TABLES;

@@ -1,4 +1,4 @@
-# xfg-frame-archetype - DDD 脚手架
+# acjava-frame-archetype - DDD 脚手架
 
 ## 1. 脚手架安装使用
 
@@ -13,7 +13,7 @@ mvn clean install
 ### 2. 配置
 
 ```shell
-/Users/fuzhengwei/Documents/develop/apache-maven-3.8.6/repository
+D:\Data\maven\repo
 ```
 
 - 把你的 Maven 路径的 repository 配置到 IntelliJ IDEA 创建 Maven 工程的路径下。

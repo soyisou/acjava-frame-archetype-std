@@ -1,4 +1,4 @@
-package com.acjava.xfg.frame.trigger.http;
+package com.acjava.trigger.http;
 
 import com.acjava.types.common.Constants;
 import com.acjava.types.model.Response;
@@ -37,7 +37,7 @@ public class Controller {
         return Response.<String>builder()
                 .code(Constants.ResponseCode.SUCCESS.getCode())
                 .info(Constants.ResponseCode.SUCCESS.getInfo())
-                .data("查询用户信息，小傅哥")
+                .data("查询用户信息，AcJava")
                 .build();
     }
 
